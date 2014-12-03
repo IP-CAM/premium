@@ -9,10 +9,10 @@
       <li>
       <div>
 	 <?php if ($product['rating']) { ?>
-        <div class="rating"><img src="catalog/view/theme/ocstore-premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
+        <div class="rating"><img src="catalog/view/theme/premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
         <?php if ($product['thumb']) { ?>
-		<div class="sticker"><img src="catalog/view/theme/ocstore-premium/image/new.png"></div>
+		<div class="sticker"><img src="catalog/view/theme/premium/image/new.png"></div>
         <div class="bw"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
 <div class="back-nav">
 <div class="name-product">  <?php if (strlen($product['name']) > 40) { ?>  <a href="<?php echo $product['href']; ?>" title="<?php echo $product['name']; ?>"><?php echo utf8_substr($product['name'], 0, 40) . '...'; ?></a>  <?php } else { ?>  <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>  <?php } ?></div>

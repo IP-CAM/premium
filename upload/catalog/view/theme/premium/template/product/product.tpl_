@@ -40,9 +40,9 @@ $("#zoom_03").bind("click", function(e) {
 
 
     <div class="right">
-	<div class="pay-img-product"><img src="/catalog/view/theme/ocstore-premium/image/webmoney.png">
-<img src="/catalog/view/theme/ocstore-premium/image/yandex.png"><img src="/catalog/view/theme/ocstore-premium/image/sberbank.png">
-<img src="/catalog/view/theme/ocstore-premium/image/kiwi.png"><img src="/catalog/view/theme/ocstore-premium/image/privat24.png"></div>
+	<div class="pay-img-product"><img src="/catalog/view/theme/premium/image/webmoney.png">
+<img src="/catalog/view/theme/premium/image/yandex.png"><img src="/catalog/view/theme/premium/image/sberbank.png">
+<img src="/catalog/view/theme/premium/image/kiwi.png"><img src="/catalog/view/theme/premium/image/privat24.png"></div>
 
 <div class="wish-compare">
         <div><a onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a>
@@ -244,7 +244,7 @@ $("#zoom_03").bind("click", function(e) {
       </div>
       <?php if ($review_status) { ?>
       <div class="review">
-        <div><img src="catalog/view/theme/ocstore-premium/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
+        <div><img src="catalog/view/theme/premium/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
       </div>
       <?php } ?>
 <script type="text/javascript" src="//yandex.st/share/share.js"
@@ -329,7 +329,7 @@ charset="utf-8"></script>
       <?php foreach ($products as $product) { ?>
       <div>
 	 <?php if ($product['rating']) { ?>
-        <div class="rating"><img src="catalog/view/theme/ocstore-premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
+        <div class="rating"><img src="catalog/view/theme/premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
         <?php if ($product['thumb']) { ?>
         <div class="bw"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>

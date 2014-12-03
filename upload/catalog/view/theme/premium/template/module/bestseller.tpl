@@ -5,10 +5,10 @@
       <?php foreach ($products as $product) { ?>
       <div>
 	 <?php if ($product['rating']) { ?>
-        <div class="rating"><img src="catalog/view/theme/ocstore-premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
+        <div class="rating"><img src="catalog/view/theme/premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
         <?php if ($product['thumb']) { ?>
-		<div class="sticker"><img src="catalog/view/theme/ocstore-premium/image/hit.png"></div>
+		<div class="sticker"><img src="catalog/view/theme/premium/image/hit.png"></div>
         <div class="bw"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
 <div class="back-nav">
 <div class="name-product">

@@ -59,7 +59,7 @@
     <?php foreach ($products as $product) { ?>
     <div>   
         <?php if ($product['rating']) { ?>
-            <div class="rating"><img src="catalog/view/theme/ocstore-premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
+            <div class="rating"><img src="catalog/view/theme/premium/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>
   
       <?php if ($product['thumb']) { ?>
@@ -134,7 +134,7 @@ function display(view) {
 			$(element).html(html);
 		});		
 		
-		$('.display').html('<b><?php echo $text_display; ?></b><img src="/catalog/view/theme/ocstore-premium/image/list.png"><a onclick="display(\'grid\');"><img src="/catalog/view/theme/ocstore-premium/image/grid.png"></a>');
+		$('.display').html('<b><?php echo $text_display; ?></b><img src="/catalog/view/theme/premium/image/list.png"><a onclick="display(\'grid\');"><img src="/catalog/view/theme/premium/image/grid.png"></a>');
 		
 		$.cookie('display', 'list'); 
 	} else {
@@ -169,7 +169,7 @@ function display(view) {
 			$(element).html(html);
 		});	
 					
-		$('.display').html('<b><?php echo $text_display; ?></b><a onclick="display(\'list\');"><img src="/catalog/view/theme/ocstore-premium/image/list.png"></a><img src="/catalog/view/theme/ocstore-premium/image/grid.png">');
+		$('.display').html('<b><?php echo $text_display; ?></b><a onclick="display(\'list\');"><img src="/catalog/view/theme/premium/image/list.png"></a><img src="/catalog/view/theme/premium/image/grid.png">');
 		
 		$.cookie('display', 'grid');
 	}

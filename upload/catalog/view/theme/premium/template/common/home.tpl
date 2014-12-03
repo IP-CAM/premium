@@ -25,9 +25,9 @@
             </ul>
         </div>
         <div class="pay-img">
-            <img src="/catalog/view/theme/ocstore-premium/image/webmoney.png">
-            <img src="/catalog/view/theme/ocstore-premium/image/yandex.png"><img src="/catalog/view/theme/ocstore-premium/image/sberbank.png">
-            <img src="/catalog/view/theme/ocstore-premium/image/kiwi.png"><img src="/catalog/view/theme/ocstore-premium/image/privat24.png">
+            <img src="/catalog/view/theme/premium/image/webmoney.png">
+            <img src="/catalog/view/theme/premium/image/yandex.png"><img src="/catalog/view/theme/premium/image/sberbank.png">
+            <img src="/catalog/view/theme/premium/image/kiwi.png"><img src="/catalog/view/theme/premium/image/privat24.png">
         </div>
     </div>
 </div>
