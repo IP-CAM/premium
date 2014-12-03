@@ -1,0 +1,39 @@
+ 
+/* menu */
+.ie10 #menu ul li {
+	position: relative;
+}
+.ie10 #menu ul li div {
+	z-index: 5;
+}
+.ie10 #menu ul li.active div {
+	display: block;
+}
+.ie10 .success, .warning, .attention, .information {
+}
+.ie10 .success .close, .warning .close, .attention .close, .information .close {
+	position: absolute;
+	right: 10px;
+}
+.ie10 .box-product > div {
+	display: inline;
+}
+.ie10 .product-grid > div {
+	display: inline;
+}
+
+
+.ie10 #menu > ul > li:hover > div {
+	display: block;
+}
+.ie10 #menu > ul > li > div > ul {
+	display: inline-block;
+}
+
+
+.ie10 .back-nav  {width: 178px;}
+
+
+
+
+
